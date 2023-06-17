@@ -234,21 +234,33 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 
 ## Conexión de node red
  1. Colocar bloque ```mqqtt in```.
+
 ![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/8.png?raw=true)
+
  2. Colocar bloque ```json```.
+
 ![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/9.png?raw=true)
+
  3. Colocar 2 bloques ```function```.
+
 ![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/10.png?raw=true)
+
  4. Colocar 2 bloques ```gauge```.
+
 ![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/11.png?raw=true)
+
  5. Colocar bloque ```chart```.
+
 ![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/12.png?raw=true)
+
  6. Conectamos todos los componentes como se muestra en la imagen:
+
 ![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/13.png?raw=true)
 
-Tras conectar todo se pasa a la configuración
+Tras conectar todo se pasa a la configuración.
 
 ## Configuración de node red
+
 
 
 ### Instrucciónes de operación
