@@ -375,7 +375,7 @@ Cuando haya funcionado, verás los valores dentro del monitor serial en "wokwi" 
 
 2. Funcionamiento en la página web creada:
 
-![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/30.png?raw=true)
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/33.png?raw=true)
 
 ## Evidencias
 
