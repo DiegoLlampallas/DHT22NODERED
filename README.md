@@ -290,11 +290,11 @@ Tras conectar todo se pasa a la configuración.
 ![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/27.png?raw=true)
 
 
-6. Le damos en "edit" al "grou 2" creado.
+8. Le damos en "edit" al "grou 2" creado.
 
 ![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/28.png?raw=true)
 
-7. Llenamos los datos con la información tal y como aparece en la siguiente imagen:
+9. Llenamos los datos con la información tal y como aparece en la siguiente imagen:
 
 ![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/29.png?raw=true)
 
