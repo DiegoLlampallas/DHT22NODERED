@@ -261,21 +261,122 @@ Tras conectar todo se pasa a la configuración.
 
 ## Configuración de node red
 
+1. Vamos a la esquina superior derecha y en la "flechita que apunta  hacia abajo seleccionamos y buscamos "Dashboard".
 
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/21.png?raw=true)
+
+2. Le damos de"+ tab".
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/22.png?raw=true)
+
+3. Le damos en "+ group" dos veces para crear dos grupos.
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/23.png?raw=true)
+
+4. Le damos en "edit" al "tab" creado.
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/24.png?raw=true)
+
+5. Llenamos los datos con la información tal y como aparece en la siguiente imagen:
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/25.png?raw=true)
+
+6. Le damos en "edit" al "grou 1" creado.
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/26.png?raw=true)
+
+7. Llenamos los datos con la información tal y como aparece en la siguiente imagen:
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/27.png?raw=true)
+
+
+6. Le damos en "edit" al "grou 2" creado.
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/28.png?raw=true)
+
+7. Llenamos los datos con la información tal y como aparece en la siguiente imagen:
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/29.png?raw=true)
+
+Tras completar todo esto vamos a ir seleccionando y dando doble click a cada bloque y llenarlo con la información necesaria, en este caso de izquierda a derecha:
+
+
+1. Edit "mqtt" y completar los datos mostrados en la imagen:
+
+ ![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/14.png?raw=true)
+
+2. Edit "json" y completar los datos mostrados en la imagen:
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/15.png?raw=true)
+
+3. Edit "function" la de arriba y completar los datos mostrados en la imagen:
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/16.png?raw=true)
+
+4. Edit "function" la de abajo y completar los datos mostrados en la imagen:
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/17.png?raw=true)
+
+5. Edit "gauge" la de arriba y completar los datos mostrados en la imagen:
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/18.png?raw=true)
+
+6. Edit "gauge" la de abajo y completar los datos mostrados en la imagen:
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/19.png?raw=true)
+
+7. Edit "chart" y completar los datos mostrados en la imagen:
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/20.png?raw=true)
+
+Tras completar todo esto puede empezar la simulación de operación tanto en "wokwi" como en el "node red" como se mostrará acontinuación: 
 
 ### Instrucciónes de operación
 
-1. Iniciar simulador.
-2. Visualizar los datos en el monitor serial.
+1. Iniciar simulador "wokwi": 
+
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/34.png?raw=true)
+
+
+2. Una vez que conecte debe mostrará el acceso:
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/7.png?raw=true)
+
+3. Tras esto podemos dar en iniciar en "node red" como se muestra en la siguiente imagen:
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/30.png?raw=true)
+
 3. Colocar la temperatura y humedad dando *doble click* al sensor **DHT11** 
 
+4. Para acceder a la información mandada por el "ESP32" hay dos opciones para acceder a la página web creada:
+
+Opción 1:
+
+1. Escribiendo el código "localhost/1880/ic" en la imagen en una nueva página limpia:
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/31.png?raw=true)
+
+Opción 2:
+
+2. Dando click en la esquina superior derecha por donde esta dashboard:
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/32.png?raw=true)
 
 ## Resultados
 
-Cuando haya funcionado, verás los valores dentro del monitor serial.
+Cuando haya funcionado, verás los valores dentro del monitor serial en "wokwi" y en la página creada.
+
 ## Funcionamiento
 
+1. Funcionamiento en "wokwi":
+
 ![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/7.png?raw=true)
+
+2. Funcionamiento en la página web creada:
+
+![](https://github.com/DiegoLlampallas/DHT22NODERED/blob/main/30.png?raw=true)
+
 ## Evidencias
 
 [Página](https://wokwi.com/projects/367749529453942785)
